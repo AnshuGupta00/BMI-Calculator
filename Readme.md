@@ -41,8 +41,10 @@ Your BMI is 22.2, you have a normal weight.
 
 ## Code Structure
 
-- `BMI calculator.py`: The main Python script containing the BMI calculation and interpretation logic.
-- `README.md`: This file, providing an overview of the BMI calculator and usage instructions.
+- `BMI calculator.py` — Core BMI calculation engine with WHO classification
+- `bmi_ml_model.py` — ML extension: Random Forest & Logistic Regression 
+   classifier trained on BMI data to predict health risk categories
+- `bmi.csv` — Dataset used for model training and evaluation
 
 ## Functions
 
